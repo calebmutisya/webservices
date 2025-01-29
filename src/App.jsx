@@ -1,12 +1,13 @@
 import './App.css'
+import './main.css'
 import Header from './components/Header'
 
 function App() {
 
   return (
-    <div className='bg-white'>
+    <body>
       <Header/>
-    </div>
+    </body>
   )
 }
 
