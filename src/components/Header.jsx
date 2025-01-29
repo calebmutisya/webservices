@@ -2,9 +2,18 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className=" xs:bg-red-200
-    sm:bg-green-500 md:bg-blue-500 lg:bg-yellow-500 xl:bg-purple-500 2xl:bg-pink-500">
-      <h1 className='xs: font-light'>Header</h1>
+    <div className='bg-sky-300 text-base font-sans font-medium px-[10vw] h-[62px]
+    flex justify-between items-center
+    '>
+      <h1 className='text-2xl'>LOGO</h1>
+      <ul className='flex gap-[4vw]'>
+        <li>Services</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+      <div>
+        Let's Talk
+      </div>
     </div>
   )
 }
