@@ -3,9 +3,6 @@ export default {
   content: [],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['DMSans', 'sans-serif'],
-      },
       screens: {
         'xs': '375px',  // Extra small devices (custom)
         'sm': '640px',  // Small devices (default)
