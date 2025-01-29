@@ -4,12 +4,13 @@ export default {
   theme: {
     extend: {
       screens: {
-        'xs': '475px', // Custom screen size for extra small devices
-        'sm': '640px', // Small devices (default Tailwind breakpoint)
-        'md': '768px', // Medium devices (default Tailwind breakpoint)
-        'lg': '1024px', // Large devices (default Tailwind breakpoint)
-        'xl': '1280px', // Extra large devices (default Tailwind breakpoint)
-        '2xl': '1536px', // 2X large devices (default Tailwind breakpoint)
+        'xs': '375px',  // Extra small devices (custom)
+        'sm': '640px',  // Small devices (default)
+        'md': '768px',  // Medium devices (default)
+        'lg': '1024px', // Large devices (default)
+        'xl': '1280px', // Extra large devices (default)
+        '2xl': '1536px', // 2X large devices (default)
+        '3xl': '1920px'  // Ultra-wide screens (custom)
       },
     },
   },
