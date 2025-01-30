@@ -67,6 +67,9 @@ body {
 
 nav {
     display: flex;
+    position: absolute;
+    width: 100%;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     padding: 0 10vw;
@@ -93,5 +96,80 @@ nav {
 }
 
 /* ----------Header End---------- */
+
+/* ----------Intro Start---------- */
+
+.intro {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.intro h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: var(--color-text-dark);
+    line-height: 1.4;
+    margin-bottom: 40px;
+    letter-spacing: -0.045em;
+}
+
+
+.card-carousel {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Banner Card Start */
+
+.banner{
+    min-width: 828px;
+    border-radius: 16px;
+    position: relative;
+    border: 1px solid var(--color-primary);
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.linklabel{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 10px;
+    right: 10px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.linklabel:hover{
+    background-color: var(--color-link);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Banner Card End */
+
+
+
+/* ----------Intro End---------- */
 
 
