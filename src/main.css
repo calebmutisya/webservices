@@ -26,6 +26,7 @@
     --color-black: #000000;
     --color-text-dark: #292930;
     --color-body: #525260;
+    --color-border: rgba(0, 0, 0, 0.25);
 }
 
 
@@ -149,7 +150,6 @@ nav {
 .banner {
     border-radius: 16px;
     position: relative;
-    border: 1px solid var(--color-primary);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -190,4 +190,109 @@ nav {
 
 /* ----------Intro End---------- */
 
+
+/* ----------Services Start---------- */
+
+.services {
+    margin-top: 100px;
+    width: 60vw;
+}
+
+.services h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--color-text-dark);
+    line-height: 1.4;
+    margin-bottom: 30px;
+    letter-spacing: -0.045em;
+    text-align: center;
+}
+
+.services p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-body);
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.servicecont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.servicesimg {
+    width: 500px;
+}
+
+
+/* Service Card Start */
+.servicecard {
+    display: flex;
+    flex-direction: row;
+    width: 540px;
+    gap: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 35px;
+}
+
+.serviceicon{
+    width: 40px;
+    height: 40px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.cardheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardtitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-text-dark);
+    line-height: 1.4;
+    letter-spacing: -0.045em;
+}
+
+.carddescription {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-body);
+    line-height: 1.4;
+    letter-spacing: -0.045em;
+}
+
+.toggle-icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--color-primary);
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+/* Service Card End */
+
+/* ----------Services End---------- */
 
