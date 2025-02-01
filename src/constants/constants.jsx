@@ -29,6 +29,35 @@ const banners = [
     }
 ]
 
+const porfolio = [
+    {
+        url: 'https://wellfood-react.vercel.app/',
+        image: banner1,
+        title: 'Food Delivery Web App',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'
+    }, {
+        url: 'https://wellfood-react.vercel.app/',
+        image: banner2,
+        title: 'Ecommerce web App',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'
+    }, {
+        url: 'https://wellfood-react.vercel.app/',
+        image: banner3,
+        title: 'Corporate Site',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'
+    }, {
+        url: 'https://wellfood-react.vercel.app/',
+        image: banner4,
+        title: 'Hotel Web App',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'
+    }, {
+        url: 'https://wellfood-react.vercel.app/',
+        image: banner5,
+        title: 'Online Payment Gateway',
+        description: 'Lorem Ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+    }
+]
+
 const myservices = [
     {
         title: 'Web Application Development',
@@ -52,4 +81,4 @@ const myservices = [
     }
 ]
 
-export {banners, myservices}
+export {banners, myservices, porfolio}

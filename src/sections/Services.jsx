@@ -3,7 +3,7 @@ import '../main.css'
 import services from '../assets/images/services.png'
 
 import { myservices } from '../constants/constants'
-import ServiceCard from './ServiceCard'
+import ServiceCard from '../components/ServiceCard'
 
 export default function Services() {
   return (
