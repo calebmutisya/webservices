@@ -168,14 +168,14 @@ const pricing = [
         plan: 'Static Website',
         description: "A simple website with fixed content that doesn’t change unless a developer manually updates it. Great for basic business sites, portfolios, or informational pages.",
         deliveryperiod: '1-2 Weeks',
-        pricerange: 'KSH 5500-15000',
+        pricerange: 'KSH 5,500-15,000',
         usdpricerange: 'USD 60-160',
     },
     {
         plan: 'Web Application',
         description: "A dynamic, interactive website that lets users do things like log in, submit forms, or make purchases. Examples include online stores, social media, and dashboards.",
         deliveryperiod: '1-3 Months',
-        pricerange: 'KSH 45000-150,000',
+        pricerange: 'KSH 45,000-150,000',
         usdpricerange: 'USD 470-1700'
     }
 ]
