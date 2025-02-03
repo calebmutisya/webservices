@@ -9,6 +9,21 @@ import backend from '../assets/svg/backend.svg'
 import frontend from '../assets/svg/frontend.svg'
 import webapp from '../assets/svg/webapp.svg'
 
+import css from '../assets/images/css.png'
+import figma from '../assets/images/figma.png'
+import flask from '../assets/images/flask.png'
+import html from '../assets/images/html.png'
+import nextjs from '../assets/images/nextjs.png'
+import postgresql from '../assets/images/postgresql.png'
+import python from '../assets/images/python.png'
+import react from '../assets/images/react.png'
+import tailwind from '../assets/images/tailwind-css.png'
+import typescript from '../assets/images/typescript.png'
+import aws from '../assets/images/aws.png'
+import stripe from '../assets/images/stripe.png'
+import vercel from '../assets/images/vercel.png'
+import github from '../assets/images/github.png'
+
 
 const banners = [
     {
@@ -81,4 +96,70 @@ const myservices = [
     }
 ]
 
-export {banners, myservices, porfolio}
+const skills = [
+    // Backend
+    {
+        title: 'Python',
+        icon: python
+    },
+    {
+        title: 'Flask',
+        icon: flask
+    },
+    {
+        title: 'PostgreSQL',
+        icon: postgresql
+    },
+
+    // Server & Cloud
+    {
+        title: 'AWS',
+        icon: aws
+    },
+    {
+        title: 'Vercel',
+        icon: vercel
+    },
+
+    // Frontend
+    {
+        title: 'Typescript',
+        icon: typescript
+    },
+    {
+        title: 'React',
+        icon: react
+    },
+    {
+        title: 'Next.js',
+        icon: nextjs
+    },
+    {
+        title: 'HTML',
+        icon: html
+    },
+    {
+        title: 'CSS',
+        icon: css
+    },
+    {
+        title: 'Tailwind CSS',
+        icon: tailwind
+    },
+
+    // Tools & Misc
+    {
+        title: 'Stripe',
+        icon: stripe
+    },
+    {
+        title: 'GitHub',
+        icon: github
+    },
+    {
+        title: 'Figma',
+        icon: figma
+    }
+];
+
+export {banners, myservices, porfolio, skills}
