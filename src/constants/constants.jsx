@@ -21,7 +21,7 @@ import tailwind from '../assets/images/tailwind-css.png'
 import typescript from '../assets/images/typescript.png'
 import aws from '../assets/images/aws.png'
 import stripe from '../assets/images/stripe.png'
-import vercel from '../assets/images/vercel.png'
+import vercel from '../assets/images/vercel.svg'
 import github from '../assets/images/github.png'
 
 
