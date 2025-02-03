@@ -200,6 +200,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     padding: 0 10vw;
 }
 
@@ -312,6 +313,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     padding: 0 10vw;
 }
 
@@ -424,6 +426,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     padding: 0 10vw;
 }
 
@@ -490,4 +493,19 @@ nav {
 }
 
 /* ---------- WorkSkills End ---------- */
+
+/* ---------- Testimonials Start ---------- */
+
+.testimonials {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 10vw;
+}
+
+/* ---------- Testimonials End ---------- */
 
