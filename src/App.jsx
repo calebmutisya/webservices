@@ -6,6 +6,7 @@ import RecentWork from './sections/RecentWork'
 import Intro from './sections/Intro'
 import WorkSkills from './sections/WorkSkills'
 import Testimonials from './sections/Testimonials'
+import Pricing from './sections/Pricing'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Services/>
       <RecentWork/>
       <WorkSkills/>
+      <Pricing/>
       <Testimonials/>
     </body>
   )
