@@ -7,6 +7,7 @@ import Intro from './sections/Intro'
 import WorkSkills from './sections/WorkSkills'
 import Testimonials from './sections/Testimonials'
 import Pricing from './sections/Pricing'
+import Contact from './sections/Contact'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <WorkSkills/>
       <Pricing/>
       <Testimonials/>
+      <Contact/>
     </body>
   )
 }
