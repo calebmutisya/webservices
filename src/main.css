@@ -24,6 +24,7 @@
     --color-white: #ffffff;
     --color-light: #ECF2F6;
     --color-black: #000000;
+    --color-dark: rgb(39, 39, 46);
     --color-text-dark: #292930;
     --color-body: #525260;
     --color-border: rgba(0, 0, 0, 0.25);
@@ -631,9 +632,66 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 0 10vw;
+    padding: 100px 20vw;
+    background-color: var(--color-dark);
+}
+
+.quotes {
+    font-size: 78px;
+    color: var(--color-primary);
+}
+
+.testimonialscont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.testimony{
+    /* height: 60px; */
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-light);
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-align: center;
+    /* background-color: #5956E9; */
+}
+
+.position{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-body);
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.singletestimony div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singletestimony div h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-primary);
+    line-height: 1.4;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.singletestimony div p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-light);
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 /* ---------- Testimonials End ---------- */

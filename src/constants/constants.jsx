@@ -180,6 +180,22 @@ const pricing = [
     }
 ]
 
-const testimonials = []
+const attestments = [
+    {
+        name: 'Jason Doe',
+        position: 'CEO, Flixta',
+        testimony: 'Photo recently engage worldwide methodologies with in web-enabled technology. Interactively coordi proactive commerce via process centric outside the thinking this pursue technology scalable.'
+    },
+    {
+        name: 'Samuel Doe',
+        position: 'CEO, Flixta',
+        testimony: 'Interactively coordi proactive commerce via process centric outside the thinking this pursue technology scalable.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'
+    },
+    {
+        name: 'Mary Jane',
+        position: 'CEO, Flixta',
+        testimony: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.Interactively coordi proactive commerce via process centric outside the thinking this pursue technology scalable.'
+    }
+]
 
-export {banners, myservices, porfolio, skills, pricing, testimonials}
+export {banners, myservices, porfolio, skills, pricing, attestments}
