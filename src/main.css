@@ -27,6 +27,7 @@
     --color-text-dark: #292930;
     --color-body: #525260;
     --color-border: rgba(0, 0, 0, 0.25);
+    --color-background: rgb(89, 86, 233);
 }
 
 
@@ -503,9 +504,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 0 10vw;
+    padding: 100px 10vw;
+    background-color: var(--color-light);
 }
 
 .pricing h2 {
@@ -532,7 +532,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     margin-top: 50px;
 }
 
@@ -544,6 +544,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 350px;
+    min-height: 500px;
     padding: 30px;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.25); 
@@ -552,12 +553,25 @@ nav {
     background-color: var(--color-white);
 }
 
+.pricecard:hover {
+    border: none; 
+    background-color: var(--color-background);
+    transition: all 0.3s ease-in-out;
+}
+
+.pricecard:hover .plan,
+.pricecard:hover .deliveryperiod,
+.pricecard:hover .pricerange,
+.pricecard:hover .description {
+    color: var(--color-white);
+    transition: all 0.3s ease-in-out;
+}
 
 
 .plan {
     font-size: 28px;
     font-weight: 400;
-    color: var(--color-text-dark);
+    color: var(--color-background);
     line-height: 1.4;
     margin-top: 30px;
     margin-bottom: 30px;

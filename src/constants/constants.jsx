@@ -182,4 +182,4 @@ const pricing = [
 
 const testimonials = []
 
-export {banners, myservices, porfolio, skills, pricing}
+export {banners, myservices, porfolio, skills, pricing, testimonials}
