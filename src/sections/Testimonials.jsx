@@ -26,6 +26,15 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
+      <div className='pagination'>
+        {attestments.map((_, i) => (
+          <span 
+            key={i} 
+            className={i === index ? 'active' : ''} 
+            onClick={() => setIndex(i)}
+          ></span>
+        ))}
+      </div>
     </div>
   );
 }

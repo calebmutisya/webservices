@@ -694,5 +694,39 @@ nav {
     text-align: center;
 }
 
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: var(--color-light);
+    cursor: pointer;
+}
+
+.pagination span.active {
+    background-color: var(--color-primary);
+}
+
 /* ---------- Testimonials End ---------- */
+
+/* ---------- Contact Start ---------- */
+
+.contact {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10vw;
+}
+
+/* ---------- Contact End ---------- */
 
