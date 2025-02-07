@@ -3,6 +3,7 @@ import '../main.css'
 import SlickCarousel from '../components/SlickCarousel';
 import Services from './Services';
 import RecentWork from './RecentWork';
+
 function Intro() {
   return (
     <div className='intro'>
