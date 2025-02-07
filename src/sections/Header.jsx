@@ -1,6 +1,6 @@
 import React from 'react'
 import '../main.css'
-import Button from './Button'
+import Button from '../components/Button'
 import logo from '../assets/icons/logo.svg'
 
 function Header() {
