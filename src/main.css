@@ -22,6 +22,7 @@
     --color-primary: #5956E9;
     --color-link: #2522BA;
     --color-white: #ffffff;
+    --white-opacity: rgba(255, 255, 255, 0.9);
     --color-light: #ECF2F6;
     --color-black: #000000;
     --color-dark: rgb(39, 39, 46);
@@ -69,14 +70,29 @@ body {
 /* ----------Header Start---------- */
 
 nav {
-    display: flex;
-    position: absolute;
     width: 100%;
+    position: fixed;
     top: 0;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw;
-    margin : 35px 0;
+    padding: 15px 10vw;
+    z-index: 999;
+}
+
+nav.scrolled {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10vw;
+    z-index: 999;
+    background-color: var(--white-opacity);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -203,7 +219,8 @@ nav {
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
-    padding: 0 10vw;
+    padding: 100px 10vw;
+    background-color: var(--color-light);
 }
 
 .services h2 {
@@ -884,7 +901,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 10vw;
+    padding-top: 60px;
+    padding-bottom: 50px;
     background-color: var(--color-dark);
 }
 
