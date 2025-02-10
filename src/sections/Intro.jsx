@@ -1,13 +1,12 @@
-import React, { useRef, useEffect } from 'react';import { banners } from '../constants/constants'
-import '../main.css'
+import React from 'react';
 import SlickCarousel from '../components/SlickCarousel';
-import Services from './Services';
-import RecentWork from './RecentWork';
+import clouds from '../assets/images/cloud2.png';
 
 function Intro() {
   return (
     <div className='intro'>
-      <h1>Build beautiful websites.</h1>
+      <img src={clouds}/>
+      <h1>Let's Build You A Beautiful Website.</h1>
       <SlickCarousel/>
     </div>
   )
