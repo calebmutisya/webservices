@@ -135,14 +135,20 @@ nav.scrolled {
 .sidemenu {
     position: fixed;
     top: 0;
-    right: 0;
+    right: -350px; /* Initially off-screen */
     width: 350px;
     height: 100%;
     background-color: var(--color-white);
     z-index: 999;
     display: flex;
     flex-direction: column;
+    transition: right 0.6s ease-in-out; /* Smooth slide-in animation */
 }
+
+.sidemenu.show {
+    right: 0; /* Slide in */
+}
+
 
 .sidemenu ul {
     display: flex;
