@@ -114,6 +114,101 @@ nav.scrolled {
     transition: all 0.3s ease-in-out;
 }
 
+.mybuttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hamburger {
+    padding: 12px;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+}
+
+.menuicon {
+    font-size: 26px;
+    color: var(--color-white);
+}
+
+.sidemenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background-color: var(--color-white);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidemenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding : 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-body);
+    cursor: pointer;
+}
+
+.sidemenu ul li{
+    cursor: pointer;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.sidemenu ul li:hover{
+    color: var(--color-link);
+    transition: all 0.3s ease-in-out;
+}
+
+.logo2 {
+    width: 150px;
+}
+
+.closecont {
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    border-radius: 25px;
+}
+
+.closeicon {
+    font-size: 26px;
+    color: var(--color-white);
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    padding : 20px;
+    gap: 10px;
+}
+
+.about h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-body);
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.about p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-body);
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
 /* ----------Header End---------- */
 
 /* ----------Intro Start---------- */
