@@ -1,11 +1,17 @@
-import React from 'react'
-import '../main.css'
-import services from '../assets/images/services.png'
+import React, { useState } from 'react';
+import '../main.css';
+import services from '../assets/images/services.png';
 
-import { myservices } from '../constants/constants'
-import ServiceCard from '../components/ServiceCard'
+import { myservices } from '../constants/constants';
+import ServiceCard from '../components/ServiceCard';
 
 export default function Services() {
+  const [expandedIndex, setExpandedIndex] = useState(null);
+
+  const handleToggle = (index) => {
+    setExpandedIndex(expandedIndex === index ? null : index);
+  };
+
   return (
     <div className='services'>
       <h2>My Quality Services</h2>
@@ -15,13 +21,18 @@ export default function Services() {
           <img className='servicesimg' src={services} alt="services"/>
         </div>
         <div>
-            {
-                myservices.map((service, index) => (
-                    <ServiceCard key={index} title={service.title} icon={service.icon} description={service.description} />
-                ))
-            }
+          {myservices.map((service, index) => (
+            <ServiceCard
+              key={index}
+              title={service.title}
+              icon={service.icon}
+              description={service.description}
+              showDescription={expandedIndex === index}
+              onToggle={() => handleToggle(index)}
+            />
+          ))}
         </div>
       </div>
     </div>
-  )
+  );
 }
